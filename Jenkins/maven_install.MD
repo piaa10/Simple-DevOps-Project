@@ -48,4 +48,7 @@ So far we have completed the installation of maven software to support maven plu
 
 2. Configure maven path
   - `Manage Jenkins` > `Global Tool Configuration` > `Maven`
+  
+  JAVA_Home= same as ~/.bash_profile /usr/lib/jvm/java-11-openjdk-11.0.13.0.8-1.amzn2.0.3.x86_64
+  MAVEN_HOME= /opt/maven
 
