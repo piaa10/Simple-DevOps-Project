@@ -19,6 +19,12 @@ Maven is a code build tool which used to convert your code to an artifact. this 
      verify maven as belows
      cd /opt/maven/bin
      ./mvn -v
+     
+     	Jave home path can be found by running the command #find / -name java-11*
+	JAVA_HOME=/usr/lib/jvm/java-11-openjdk-11.0.13.0.8-1.amzn2.0.3.x86_64
+	M2=/opt/maven
+	M2_HOME=/opt/maven/bin
+
 	
 1. Setup M2_HOME and M2 paths in .bash_profile of the user and add these to the path variable
    ```sh
